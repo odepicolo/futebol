@@ -29,7 +29,6 @@ export default function Index() {
         textDecorationLine: 'underline',
         color: 'fff'
       },
-
     });
     
     

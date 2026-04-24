@@ -5,7 +5,7 @@ export default function AboutScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Sobre a Tela</Text>
-      <Link href="/index" style={styles.button}>
+      <Link href="/" style={styles.button}>
       vá para a tela inicial
 
       </Link>
@@ -23,5 +23,10 @@ export default function AboutScreen() {
       },
       text:{
         color: '#2e9637',
+      },
+      button: {
+        fontSize: 20,
+        textDecorationLine: 'underline',
+        color: '#fff',
       },
     });
